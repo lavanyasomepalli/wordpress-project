@@ -11,6 +11,7 @@ resource "aws_instance" "my_instance" {
   tags = {
     Name = "My public Instance 1"
   }
+}
 resource "aws_security_group" "demosg" {
 name = "demosg"
 description = "Security group for Wordpress and MySQL"
