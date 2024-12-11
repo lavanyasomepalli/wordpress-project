@@ -11,7 +11,6 @@ resource "aws_instance" "my_instance" {
   tags = {
     Name = "My public Instance 1"
   }
-}
   ingress {
     from_port   = 80
     to_port     = 80
