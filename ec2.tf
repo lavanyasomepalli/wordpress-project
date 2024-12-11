@@ -12,11 +12,6 @@ resource "aws_instance" "my_instance" {
     Name = "My public Instance 1"
   }
 }
-
-resource "aws_security_group" "demosg" {
-  name        = "demosg"
-  description = "Security group for WordPress and MySQL"
-
   ingress {
     from_port   = 80
     to_port     = 80
