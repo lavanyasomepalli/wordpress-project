@@ -57,3 +57,6 @@ docker-compose up -d
 
 # Optional: Check if containers are running
 docker ps
+sudo yum install -y yum-utils shadow-utils
+sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+sudo yum -y install terraform
